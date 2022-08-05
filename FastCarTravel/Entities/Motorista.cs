@@ -30,10 +30,17 @@ namespace FastCarTravel.Entities
         {
             Console.WriteLine("Corrida cancelada.");
         }
+        public void IniciarCorrida()
+        {
+            Console.WriteLine("Corrida iniciada.");
+        }
         public void FinalizarCorrida()
         {
-            Console.WriteLine("Corrida finalizada! O passageiro chegou ao destino.");            
+            Console.WriteLine("Corrida finalizada! O passageiro chegou ao destino.");     
+            
         }
+
+        
         public override string RegistrarUsuario()
         {
             return $"Olá {Nome}. \nSeu cadastro para motorista foi realizado com sucesso!";

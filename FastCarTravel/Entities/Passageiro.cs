@@ -33,6 +33,7 @@ namespace FastCarTravel.Entities
         public void CancelarCorrida()
         {
             Console.WriteLine("Corrida cancelada.");
+            Console.WriteLine("Até mais.");
         }
 
         public void InformarEnderecoOrigem(string enderecoOrigem)

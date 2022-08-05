@@ -27,6 +27,7 @@ namespace FastCarTravel.Entities
 
         public void PagarMotorista()
         {
+            Console.WriteLine("A Fast Car Travel agradece pela preferência!\n");
             Console.WriteLine("O motorista já recebeu os ganhos da viagem.");
         }
     }

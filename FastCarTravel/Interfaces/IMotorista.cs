@@ -9,5 +9,8 @@ namespace FastCarTravel.Interfaces
     public interface IMotorista
     {
         public void AceitarCorrida();
+        public void CancelarCorrida();
+        public void IniciarCorrida();
+        public void FinalizarCorrida();
     }
 }
